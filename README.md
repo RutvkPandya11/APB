@@ -73,4 +73,3 @@ o	PSTRB: Write strobe signal, indicates which byte lanes to update during a writ
       vvp apb_testbench
   • View the Waveforms: Generate a VCD file and view it using GTKWave:
       gtkwave tb_apb.vcd
-
