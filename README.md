@@ -78,10 +78,13 @@ To create more instances of the slave module, you can either copy-paste to creat
 - **Save the Verilog Code**: Save the APB Master, APB Slave, and the testbench code into separate `.v` files.
 - **Install Icarus Verilog**.
 - **Compile the Code**: Use the following command to compile the Verilog files:
-  ```  iverilog -o apb_testbench tb_apb.v apb_master.v apb_slave.v
+  ```sh
+  iverilog -o apb_testbench tb_apb.v apb_master.v apb_slave.v
 - **Run the Simulation**: Use the following command to compile the Verilog files:
-  ```  vvp apb_testbench
+  ```sh
+    vvp apb_testbench
 - **View the Waveforms**: Use the following command to compile the Verilog files:
-  ```  gtkwave tb_apb.vcd
+  ```sh
+    gtkwave tb_apb.vcd
 
   
